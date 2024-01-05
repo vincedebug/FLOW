@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+.timer {
+    border-style: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150px;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.play {
+    border-style: solid;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.reset-image {
+    cursor: pointer;
+    width: 65px;
+    border-style: solid;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+
+.reset {
+    border-style: solid;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+
+}
+
